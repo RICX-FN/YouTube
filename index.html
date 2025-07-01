@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ICONS IMPORT -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css
+" rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward_ios" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- FONTS IMPORT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- STYLE IMPORT -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="h-aside">
+                <button id="btn-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button id="btn-yt">
+                    <i id="icon-yt" class="fa-brands fa-youtube"></i>
+                    <p id="yt-tittle">YouTube</p>
+                </button>
+            </div>
+
+            <div class="h-search">
+                <input id="search-bar" type="text" placeholder="Search">
+                <button id="btn-search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button id="btn-mic">
+                    <i class="fa-solid fa-microphone"></i>
+                </button>
+            </div>
+
+            <div class="h-buttons">
+                <button href="www.google.com" id="btn-short">
+                    <i class="ri-add-line"></i>
+                    <span>Criar</span>
+                </button>
+                <button id="btn-bell">
+                    <i class="fa-regular fa-bell"></i>
+                </button>
+                <img id="ft-perfil" src="assets/images/ft.perfil.jpeg" alt="foto de perfil">
+            </div>
+        </div>
+
+        <div class="conteiner">
+            <aside>
+                <nav class="menu">
+                    <a class="btn-nav-home" href="#">
+                        <i class="ri-home-4-line"></i>
+                        <span>Home</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-mv-ai-line"></i>
+                        <span>Shorts</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-chat-follow-up-line"></i>
+                        <span>Subscribe</span>
+                    </a>
+
+                    <hr>
+
+                    <a class="btn-nav-you" href="#">
+                        You
+                        <span class="material-symbols-outlined">
+                            arrow_forward_ios
+                        </span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-history-line"></i>
+                        <span>History</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-play-list-2-fill"></i>
+                        <span>Playlist</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-video-line"></i>
+                        <span>Your videos</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-time-line"></i>
+                        <span>watch later</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-thumb-up-line"></i>
+                        <span>Videos with "like"</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-movie-2-line"></i>
+                        <span>Your clips</span>
+                    </a>
+                    <hr>
+
+                    <h3>Subscribes</h3>
+
+                    <a class="aside-canal" href="#">
+                        <div class="canais"></div>
+                        <span>Lucas Montano</span>
+                    </a>
+
+                    <a class="aside-canal" href="#">
+                        <div class="canais"></div>
+                        <span>Larrisa Kich</span>
+                    </a>
+
+                    <a class="aside-canal" href="#">
+                        <div class="canais"></div>
+                        <span>Dev Club</span>
+                    </a>
+
+                    <a class="aside-canal" href="#">
+                        <div class="canais"></div>
+                        <span>Manual do Front</span>
+                    </a>
+
+                    <a class="aside-canal" href="#">
+                        <div class="canais"></div>
+                        <span>MW Informática</span>
+                    </a>
+
+                    <a class="aside-canal" href="#">
+                        <div class="canais"></div>
+                        <span>Gabriel de Pinho</span>
+                    </a>
+
+                    <hr>
+
+                    <h3>Explore</h3>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-fire-line"></i>
+                        <span>Alta</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-music-2-line"></i>
+                        <span>Music</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-live-line"></i>
+                        <span>Live</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-gamepad-line"></i>
+                        <span>Games</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-news-line"></i>
+                        <span>Notice</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-football-fill"></i>
+                        <span>Sports</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-presentation-fill"></i>
+                        <span>Learn</span>
+                    </a>
+
+                    <a class="btn-nav" href="#">
+                        <i class="ri-handbag-line"></i>
+                        <span>Fashion and beauty</span>
+                    </a>
+                    <hr>
+
+                    <h3>More from YouTube</h3>
+
+                    <a class="aside-canal" href="#">
+                        <i class="ri-youtube-fill"></i>
+                        <span>YouTube Studio</span>
+                    </a>
+
+                    <a class="aside-canal" href="#">
+                        <i class="ri-youtube-fill"></i>
+                        <span>YouTube kids</span>
+                    </a>
+                </nav>
+            </aside>
+            <main>
+                <div class="main-menu">
+                    <button class="btn-menu-main">Tudo</button>
+                    <button class="btn-menu-main">Programing</button>
+                    <button class="btn-menu-main">Games</button>
+                    <button class="btn-menu-main">Films</button>
+                    <button class="btn-menu-main">Music</button>
+                    <button class="btn-menu-main">Funny Moments</button>
+                    <button class="btn-menu-main">Cars</button>
+                    <button class="btn-menu-main">JavaScripts</button>
+                    <button class="btn-menu-main">React</button>
+                    <button class="btn-menu-main">UX UI</button>
+                    <button class="btn-menu-main">Course</button>
+                    <button class="btn-menu-main">Futball</button>
+                </div>
+                <section class="conteiner-videos">
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="card-video">
+                        <div id="video"></div>
+                        <div class="logo-canal">
+                            <div class="canais"></div>
+                            <span class="tittle-video">Example tittle</span>
+                        </div>
+                        <div>
+                            <span class="nome-canal">Channel</span>
+                            <div class="detalhes-videos">
+                                <span class="view">0 view</span>
+                                <span>•</span>
+                                <span class="time">12min ago</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </header>
+</body>
+
+</html>
